@@ -42,6 +42,10 @@ In order to enhance the app and to change the layout, take a look at the `custom
  
 The layout has been changed to `default_controller_action_custom`.
 
+In order to test the enhancements, make sure that your URl looks like :
+
+`http://localhost/php-simple-framework-v-4.0/backend/web/index.php?controller=default&action=custom`
+
 Clone the repo, study the source code, investigate the flow, learn the logic behind the code.
 
 Enjoy :)
