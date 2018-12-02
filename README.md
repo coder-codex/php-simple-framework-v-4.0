@@ -16,21 +16,31 @@ This is the 4.0 version of the `simple` framework.
 
 Updates from  V 3.0 to V 4.0 :
 
-<pre>
-
 Templating is now available.
 
-Data can now be transferred from the `view` to the `layout`.
+Data can now be transferred from the `action` to the `view`, and further more, from the `view` to the `layout`.
 
 The information gets transferred from the `view` to the `layout` thru the `render` method.
 
 Inspect the `DefaultController` within the `backend` alias.
 
-Inspect the `render` method.
+Also, inspect the `render` method.
 
-The source code for the `render` method cand be found by accessing `vendor/framework/controllers/Controller.php`.
+The source code for the `render` method can be found by accessing `vendor/framework/controllers/Controller.php`.
 
-</pre>
+In order to test the enhancements, make sure that your URL looks like:
+
+`http://localhost/php-simple-framework-v-4.0/backend/web/`
+
+The above url calls the `index` action within the `DefaultController`.
+
+The `DefaultController` uses the `main` layout.
+
+The `main` layout also uses some `css` properties.
+
+In order to enhance the app and to change the layout, take a look at the `custom` action within the `DefaultController`.
+ 
+The layout has been changed to `default_controller_action_custom`.
 
 Clone the repo, study the source code, investigate the flow, learn the logic behind the code.
 
